@@ -1,0 +1,79 @@
+.grid {
+    margin-top: 5rem;
+    margin-bottom: 8.0rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-rows: repeat(6, 95px);
+}
+
+.Cured {
+    /* border: 2px solid white; */
+    border-radius: 25px;
+    color: white;
+    grid-area: 1/ 1 / 3 / 2;
+    box-shadow: 20px 20px 100px #4a0478;
+
+}
+
+.App-icon {
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    grid-area: 1 / 2 / 3 / 4;
+    box-shadow: 20px 20px 100px #4a0478;
+
+}
+
+.Doc {
+    /* border: 2px solid white; */
+    border-radius: 25px;
+    color: white;
+    grid-area: 3/ 1 / 5 / 2;
+    box-shadow: 20px 20px 100px #4a0478;
+
+}
+
+.Rating {
+    /* border: 2px solid white; */
+    border-radius: 25px;
+    color: white;
+    grid-area: 3/ 2 / 5 / 3;
+    box-shadow: 20px 20px 100px #4a0478;
+}
+
+
+
+.Wallet {
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    grid-area: 5/ 1 / 7 / 3;
+    box-shadow: 20px 20px 100px #4a0478;
+
+}
+
+.profile {
+    /* border: 2px solid white; */
+    border-radius: 25px;
+    color: white;
+    grid-area: 1/ 4 / 4 / 5;
+    box-shadow: 20px 20px 100px #4a0478;
+
+}
+
+.Appointment-time {
+    border: 2px solid white;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 20px 20px 100px #4a0478;
+
+}
+
+.Patient-stats {
+    /* border: 2px solid white; */
+    border-radius: 25px;
+    color: white;
+    box-shadow: 20px 20px 100px #4a0478;
+    grid-area: 4/ 3 / 7 / 5;
+}

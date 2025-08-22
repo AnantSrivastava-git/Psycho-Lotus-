@@ -1,0 +1,54 @@
+.doc-section{
+    /* border: 2px solid white; */
+    margin: 0 1rem 5rem 1rem ;
+}
+
+#header{
+    margin: 2rem 2rem 1rem ;
+    color: white;
+    background-color:#4a0478 ;
+    width: 56vw;
+    padding: 10px;
+    padding-right: px;
+    font-weight: 600;
+    /* font-size: xx-large; */
+}
+
+.doc-section h4{
+    margin: 0rem 2rem 0rem ;
+    color: white;
+    width: 40rem;
+    font-weight: 600;
+}
+
+.path{
+    /* border: 2px solid white; */
+    color: white;
+    margin: 5rem 0rem 0rem 4.8rem;
+    font-size: larger;
+    float: left;
+    padding: 2rem;
+    max-width: 30rem;
+}
+
+.path li{
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.path li p{
+    font-size: larger;
+}
+
+.Doctor-Cards{
+    display: flex;
+    flex-direction:row;
+    overflow: scroll;
+    scrollbar-width: none;
+    margin:0 2rem 5rem 38.5vw ;
+    padding-left: 3rem ;
+    /* border: 2px solid white; */
+    height: 43rem;
+    width: 60%;
+}
